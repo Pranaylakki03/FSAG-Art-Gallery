@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaya Art Gallery</title>
+     <!---Googlle fonts-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="header">
+        <h2>FSAG Art Gallery</h2> 
+
+
+        <nav> 
+            <ul class="navbar">
+                <li><a href="index.html" for="home">HOME</a></li>
+                <li><a href="collection.html">COLLECTION</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+               
+               
+            
+            </ul>
+
+           
+        </nav>
+        <div class="menutoggle" onclick=" showNavbar()"><img class="menuicon" src="Icons/hamburger-menu.svg" alt="hamburger-menu"></div>
+    </div>
+
+    <div class="sidebar">
+     
+        <p class="Closeicon" onclick="closeNavbar()">  
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+
+          <div class="sidenavbar-links">
+            <p><a href="index.html" id="home"> HOME</a></p>   
+            <p><a href="collection.html">COLLECTION</a></p>   
+            <p><a href="About.html">ABOUT</a></p>   
+            <p><a href="contact.html">CONTACT</a></p>   
+                      
+          </div>
+
+    </div>
+       
+    <div style="margin-top: 100px;  font-size: 17px;">
+        <h1 style="text-align: center;">Contact Us</h1>
+    </div>
+
+
+  
+
+    <div class="contact-section">
+        <div class="pic-st">
+            <img class="st-mike" src="Images/st michael.jpeg" alt="St. Michael">
+        </div>
+    
+        <div class="contact-input-section">
+            <input type="text" placeholder="NAME" id="name-inpt"><br>
+
+            <input type="email" placeholder="EMAIL" id="email-inpt"><br>
+
+            <input type="text" placeholder="SUBJECT" id="subject-inpt"><br>
+
+            <textarea placeholder="YOUR MESSAGE" id="texmesg-t"></textarea><br>
+            
+            <button class="send-btn">SEND</button>
+        </div>
+    </div>
+
+    <h1 style="text-align: center; margin-bottom: 100px; margin-top: 50px;">Getting here</h1>
+
+
+    <div class="map">
+
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121454.16469703142!2d79.52167041639439!3d17.958131570520244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a33450bd75e4be7%3A0x9306909c277bc137!2sWarangal%2C%20Telangana!5e0!3m2!1sen!2sin!4v1731327672489!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        
+    </div>
+    
+
+  
+
+   
+
+   
+
+        <!-----footer---->
+
+        <div class="footer">
+
+
+            <div class="titleh">
+                <h3 style="text-align: center;">FSAG Art Gallery</h3>
+            </div>
+
+            <div  class="footernav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="collection.html">COLLECTION</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+
+                     
+                
+                </ul>
+                <div class="topback"> <p  class="fottop"   ><a href="#">BACK TO TOP OF THE PAGE</a></p>
+                </div>
+               
+                
+            </div>
+
+
+            <div class="copyright-section">
+
+                    <p class="smicons"><i style="margin-right: 20px;" class="fa-brands fa-instagram" ></i> <i style="margin-right: 20px;" class="fa-brands fa-twitter"></i> <i style="margin-right: 20px;" class="fa-brands fa-facebook"></i></p>
+                     <p>FSAG Art Gallery<br> warangal Hyderabad Telangana <br>Tel 123456578  </p>
+
+                     <p>Term & conditons privacy & cookie<br>Terms of use</p>
+
+                   
+
+            </div>
+
+
+            <p style="text-align: center; padding-bottom: 50px;">@2034 FSAG Art Gallery.com</p>
+
+        </div>
+
+    <script src="script.js"></script>
+    <script src="collection.js"></script>
+    
+</body>
+</html>
